@@ -6,6 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('cliente/', include("cliente.urls")),
     path('producto/', include("producto.urls")),
+    path('core/', include("core.urls")),
     # path('nombre/<nombre>/<apellido>', views.nombre),
     # path('mihtml', views.probando_template_render),
     # path('notas',views.mostrar_notas),
